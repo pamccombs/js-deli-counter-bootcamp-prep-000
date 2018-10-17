@@ -10,7 +10,7 @@ function nowServing(line){
   return `There is nobody waiting to be served!`
 }
 function currentLine(line){
-  var s = `The 
+  var s = `The line is currently: `
   if (line.length === 0)
   return 
     
