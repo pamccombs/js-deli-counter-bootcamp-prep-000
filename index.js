@@ -12,7 +12,10 @@ function nowServing(line){
 function currentLine(line){
   var s = `The line is currently: `
   if (line.length === 0)
-  return 
+  return "The line is currently empty."
+  else{
+    if
+  }
     
   
 }
