@@ -18,7 +18,7 @@ function currentLine(line){
     for (let i = 0; i < line.length; i++){
       newLine[i] = `${[i+1]}. ${line[i]}`
     }
-    s += newLine.join(` , `)
+    s += newLine.join(`, `)
     return s
   }
     
